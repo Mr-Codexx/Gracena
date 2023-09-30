@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
+import Infor from "../../img/infor.png";
+import Monte from "../../img/monte.png";
+import Prolifics from "../../img/prolifics.png";
+import Amazon from "../../img/Amazon.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
@@ -54,16 +54,16 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img src={Infor} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={Monte} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src={Prolifics} alt="" />
           </div>{" "}
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={Amazon} alt="" />
           </div>
           <div className="w-secCircle">
             <img src={Facebook} alt="" />
