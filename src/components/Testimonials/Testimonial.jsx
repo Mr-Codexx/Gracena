@@ -5,12 +5,12 @@ import "swiper/css";
 
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import profilePic1 from "../../img/profile1.jpeg";
-import profilePic2 from "../../img/profile2.jpeg";
-import profilePic3 from "../../img/profile3.jpeg";
-import profilePic4 from "../../img/profile4.jpeg";
-import profilePic5 from "../../img/profile5.jpeg";
-import profilePic6 from "../../img/profile6.jpeg";
+import profilePic1 from "../../img/profile1.jpg";
+import profilePic2 from "../../img/profile2.jpg";
+import profilePic3 from "../../img/profile3.jpg";
+import profilePic4 from "../../img/profile4.jpg";
+import profilePic5 from "../../img/profile5.jpg";
+import profilePic6 from "../../img/profile6.jpg";
 
 const Testimonial = () => {
   const clients = [

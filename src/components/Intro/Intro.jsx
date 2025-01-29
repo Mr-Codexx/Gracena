@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import grace from "../../img/gracena.png";
+import boy from "../../img/boy.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -28,9 +28,9 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Gracena Yeshwa Jaradodi</span>
+          <span>Mr Jone Due</span>
           <span>
-            Project Manager in Prolifics.
+            Project Manager in Google.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -47,7 +47,7 @@ const Intro = () => {
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={grace} alt="" />
+        <img src={boy} alt="" />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}

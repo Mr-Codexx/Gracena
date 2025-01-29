@@ -3,7 +3,7 @@ import "./Works.css";
 import Infor from "../../img/infor.png";
 import Monte from "../../img/monte.png";
 import Prolifics from "../../img/prolifics.png";
-import Amazon from "../../img/Amazon.png";
+import Amazon from "../../img/amazon.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
